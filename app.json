@@ -1,0 +1,12 @@
+{
+  "name": "AsoApp",
+  "displayName": "AsoApp",
+  "expo": {
+    "name": "AsoApp",
+    "slug": "AsoApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
