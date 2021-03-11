@@ -29,7 +29,12 @@ const SignInScreen = () => {
       <Card rootStyle={styles.formContainer}>
         <View style={styles.row}>
           <Text style={styles.label}>Username:</Text>
-          <TextInput style={styles.input} value={values.username} onChangeText={onInputChange('username')} />
+          <TextInput
+            style={styles.input}
+            value={values.username}
+            onChangeText={onInputChange('username')}
+            placeholder="Enter your Username"
+          />
         </View>
 
         <View style={styles.row}>
@@ -39,6 +44,7 @@ const SignInScreen = () => {
             secureTextEntry
             onChangeText={onInputChange('password')}
             value={values.password}
+            placeholder="Enter your Password"
           />
         </View>
 
